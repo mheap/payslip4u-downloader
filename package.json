@@ -1,0 +1,22 @@
+{
+    "name": "payslip4u-downloader",
+    "version": "0.5.0",
+    "description": "Download payslips automatically from payslips4u",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "payslips4u",
+        "payslip"
+    ],
+    "author": "Michael Heap <m@michaelheap.com>",
+    "license": "MIT",
+    "dependencies": {
+        "moment": "^2.22.2",
+        "puppeteer": "^1.6.2"
+    },
+    "bin": {
+        "payslip4u-downloader": "./index.js"
+    }
+}
